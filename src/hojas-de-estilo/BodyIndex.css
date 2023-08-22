@@ -1,0 +1,49 @@
+.contindex{
+  background-image: url("../assets/home/background-home-desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.conthome{
+  display: grid;
+  grid-template-columns: 45% 55%;
+  margin-top: 14rem;
+  padding-bottom: 10rem;
+}
+.conthometext{
+  padding: 6rem;
+  
+}
+.conthometext .so{
+  text-transform: uppercase;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 4rem;
+  color: hsl(0, 8%, 76%);
+}
+.conthometext .spa{
+  font-size: 18rem;
+  text-transform: uppercase;
+  font-family: 'Bellefair', serif;
+  color: white;
+}
+.conthometext .parraf{
+  font-size: 1.4rem;
+  color: hsl(0, 8%, 76%);
+  font-family: 'Kumbh Sans', sans-serif;
+  text-align: justify;
+}
+.conthomeboton{
+  display: flex;
+  align-items: center;
+}
+.conthomeboton div{
+  background-color: white;
+  padding: 10rem 4rem;
+  border-radius: 100rem;
+  margin: auto;
+}
+.conthomeboton span{
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-family: 'Quattrocento', serif;
+}

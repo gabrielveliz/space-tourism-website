@@ -1,0 +1,108 @@
+.contdest{
+  background-image: url("../assets/destination/background-destination-desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 8rem;
+}
+.pick{
+  margin-top: 6rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-left: 15rem;
+}
+.picktex{
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  margin-left: 2rem;
+}
+.picknum{color: #bcc2cb;font-weight: 700;font-family: 'Manrope', sans-serif;}
+
+.contplanetas{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  display: none;
+}
+
+.contimgplan{
+  display: flex;
+  margin: auto auto;
+}
+
+.Moon{
+  display: grid;
+}
+
+
+.planetastitulo,.planetasparrafo,.contdisttra{
+  margin:1rem 4rem;
+  width: 70%;
+}
+
+.planetastitulo{
+  font-size: 10rem;
+  text-transform: uppercase;
+  font-family: 'Quattrocento', serif;
+  color: white;
+}
+
+.planetasparrafo{
+  font-size: 1.4rem;
+  color: #bcc2cb;
+  font-family: 'Kumbh Sans', sans-serif;
+  text-align: justify;
+  border-bottom: 1px solid rgba(228, 228, 228, 0.3);
+  padding-bottom: 4rem;
+}
+
+.subti{
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: #bcc2cb;
+  font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+.contdisttra{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.titulotradis{
+  font-size: 3rem;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  text-transform: uppercase;
+}
+.submenuplan{
+  
+  display: flex;
+  gap: 4rem;
+  margin-left: 4rem;
+  
+}
+
+.cnm{
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  font-size: 1.6rem;
+  font-family: 'Dosis', sans-serif;
+  cursor: pointer;
+}
+
+.ms{
+  color: #bcc2cb;
+  padding: 1rem 0rem;
+  margin-bottom: 3rem;
+  border-bottom: 2px rgba(228, 228, 228, 0) solid;
+}
+.ms:hover{
+  color: white;
+  border-bottom: 2px white solid;
+}
+.moon{
+  color: white;
+  border-bottom: 2px white solid;
+}
+
