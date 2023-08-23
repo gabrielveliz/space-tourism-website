@@ -18,7 +18,7 @@
   text-transform: uppercase;
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 4rem;
-  color: hsl(0, 8%, 76%);
+  color: rgb(208, 214, 249);
 }
 .conthometext .spa{
   font-size: 18rem;
@@ -28,9 +28,9 @@
 }
 .conthometext .parraf{
   font-size: 1.4rem;
-  color: hsl(0, 8%, 76%);
-  font-family: 'Kumbh Sans', sans-serif;
+  color: rgb(208, 214, 249);
   text-align: justify;
+  font-family: 'Barlow', sans-serif;
 }
 .conthomeboton{
   display: flex;
@@ -45,5 +45,9 @@
 .conthomeboton span{
   font-size: 4rem;
   text-transform: uppercase;
-  font-family: 'Quattrocento', serif;
+  font-family: 'Bellefair', serif;
+}
+
+.explore{
+  color: #0B0D17;
 }

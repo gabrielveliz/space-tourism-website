@@ -5,18 +5,6 @@
   background-attachment: fixed;
   margin-bottom: 8rem;
 }
-.pick{
-  margin-top: 6rem;
-  font-size: 3rem;
-  text-transform: uppercase;
-  margin-left: 15rem;
-}
-.picktex{
-  color: white;
-  font-family: 'Dosis', sans-serif;
-  margin-left: 2rem;
-}
-.picknum{color: #bcc2cb;font-weight: 700;font-family: 'Manrope', sans-serif;}
 
 .contplanetas{
   display: grid;
@@ -42,14 +30,14 @@
 .planetastitulo{
   font-size: 10rem;
   text-transform: uppercase;
-  font-family: 'Quattrocento', serif;
+  font-family: 'Bellefair', serif;
   color: white;
 }
 
 .planetasparrafo{
   font-size: 1.4rem;
-  color: #bcc2cb;
-  font-family: 'Kumbh Sans', sans-serif;
+  color: rgb(208, 214, 249);
+  font-family: 'Barlow Condensed', sans-serif;
   text-align: justify;
   border-bottom: 1px solid rgba(228, 228, 228, 0.3);
   padding-bottom: 4rem;
@@ -58,8 +46,8 @@
 .subti{
   text-transform: uppercase;
   font-size: 1.4rem;
-  color: #bcc2cb;
-  font-family: 'Kumbh Sans', sans-serif;
+  color: rgb(208, 214, 249);
+  font-family: 'Barlow Condensed', sans-serif;
 
 }
 
@@ -69,10 +57,11 @@
 }
 
 .titulotradis{
-  font-size: 3rem;
+  font-size: 2.8rem;
   color: white;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Bellefair', serif;
   text-transform: uppercase;
+  margin-top: 1rem;
 }
 .submenuplan{
   
@@ -87,7 +76,7 @@
   display: grid;
   grid-template-columns: repeat(2,1fr);
   font-size: 1.6rem;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   cursor: pointer;
 }
 

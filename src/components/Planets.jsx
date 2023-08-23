@@ -4,16 +4,16 @@ import data from "../data.json";
 
 function Planets(){
     const DisplayData=data.destinations.map(
-    (info,key)=>{
+    (info)=>{
       let aux = info.name + " contplanetas";
         return(
           <>
-    <div key={key} id={info.id}  className={aux}>
+    <div key={info.ky} id={info.id}  className={aux}>
+
       <div className='contimgplan'>
         <img src={require(`../assets/destination/${info.images.png}.png`)} alt="imgmoon" />
       </div>
       <div>
-      
         <div className='planetastitulo'><span>{info.name}</span></div>
         <div className='planetasparrafo'><span>{info.description}</span></div>
         <div className='contdisttra'>

@@ -1,0 +1,80 @@
+.conttech{
+  background-image: url("../assets/technology/background-technology-desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+.contech{
+  display: none;
+  grid-template-columns: 60% 40%;
+}
+.contimgtech img{
+  width: 100%;
+}
+.techinfo{
+  display: flex;
+  margin-left: 15rem;
+  align-items: center;
+}
+
+.submenuveh{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.menunumber{
+  display: flex;
+  color: white;
+  border: 1px solid white;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 10rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 2rem;
+  background-color: rgb(255, 255, 255,0);
+}
+.menunumber:hover{
+  color: black;
+  background-color: white;
+}
+
+.termi,.techname{
+  text-transform: uppercase;
+}
+.termi{
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #bcc2cb;
+  font-size: 2rem;
+}
+.techname{
+  font-family: 'Bellefair', serif;
+  color: white;
+  font-size: 6rem;
+  margin-top: 1.5rem;
+}
+.colde{
+  padding-left:6rem;
+  
+}
+.techdes{
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #bcc2cb;
+  font-size: 2rem;
+  margin-top: 3rem;
+  padding-right: 10rem;
+}
+
+.v1{
+  display: grid;
+}
+.selemenunumb{
+  color: black;
+  background-color: white;
+}
+
+.explore{
+  color: #0B0D17;
+}
