@@ -3,7 +3,19 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
+}
+/*tablet*/
+@media (max-width:800px){
+  .contindex{
+    background-image: url("../assets/technology/background-technology-tablet.jpg");
+  }
+}
+
+/*mobile*/
+@media (max-width:500px){
+  .contindex{
+    background-image: url("../assets/technology/background-technology-mobile.jpg");
+  }
 }
 .contech{
   display: none;

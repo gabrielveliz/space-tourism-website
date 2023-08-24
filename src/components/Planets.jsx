@@ -14,6 +14,7 @@ function Planets(){
         <img src={require(`../assets/destination/${info.images.png}.png`)} alt="imgmoon" />
       </div>
       <div>
+        <MenuP op={info.ky}></MenuP>
         <div className='planetastitulo'><span>{info.name}</span></div>
         <div className='planetasparrafo'><span>{info.description}</span></div>
         <div className='contdisttra'>
@@ -36,6 +37,37 @@ function Planets(){
 return(
   DisplayData
 );
+}
+
+function MenuP({op}){
+  let aux = 'm'+op;
+  return(
+    <div className='cnm'> 
+      <div>
+      </div>
+      <div className='submenuplan'>
+        <div className='ms moon' id={aux+"1"} onClick={() => mostrar(1,1)}><span>MOON</span></div>
+        <div className='ms'  id={aux+"2"} onClick={() => mostrar(2,2)}><span>MARS</span></div>
+        <div className='ms'  id={aux+"3"} onClick={() => mostrar(3,3)}><span>EUROPA</span></div>
+        <div className='ms'  id={aux+"4"} onClick={() => mostrar(4,4)}><span>TITAN</span></div>
+      </div>
+    </div>
+  );
+}
+
+function mostrar(op,id){
+  for(var i=1; i<5;i++)
+  {
+    document.getElementById("p"+i).style.display="none";
+    document.getElementById("m"+op+i).style.borderBottom="2px rgba(228, 228, 228, 0) solid";
+    document.getElementById("m"+op+i).style.color="#bcc2cb";
+    
+  }
+
+  document.getElementById("p"+id).style.display="grid";
+  document.getElementById("m"+op+id).style.borderBottom="2px white solid";
+  document.getElementById("m"+op+id).style.color="white";
+
 }
 
 

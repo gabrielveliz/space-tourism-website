@@ -5,21 +5,44 @@
   background-attachment: fixed;
   margin-bottom: 8rem;
 }
+/*tablet*/
+@media (max-width:800px){
+  .contindex{
+    background-image: url("../assets/destination/background-destination-tablet.jpg");
+  }
+}
+
+/*mobile*/
+@media (max-width:500px){
+  .contindex{
+    background-image: url("../assets/destination/background-destination-mobile.jpg");
+  }
+}
 
 .contplanetas{
   display: grid;
   grid-template-columns: repeat(2,1fr);
+}
+.contplanetas2{
   display: none;
 }
+
+/*tablet*/
+@media (max-width:800px){
+  .contplanetas{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
 
 .contimgplan{
   display: flex;
   margin: auto auto;
 }
 
-.Moon{
-  display: grid;
-}
+
 
 
 .planetastitulo,.planetasparrafo,.contdisttra{
@@ -72,9 +95,8 @@
 }
 
 .cnm{
-  margin-top: 4rem;
+
   display: grid;
-  grid-template-columns: repeat(2,1fr);
   font-size: 1.6rem;
   font-family: 'Barlow Condensed', sans-serif;
   cursor: pointer;
@@ -85,6 +107,7 @@
   padding: 1rem 0rem;
   margin-bottom: 3rem;
   border-bottom: 2px rgba(228, 228, 228, 0) solid;
+  
 }
 .ms:hover{
   color: white;

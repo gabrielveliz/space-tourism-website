@@ -4,24 +4,24 @@
   padding-left: 4rem;
   padding-top: 5rem;
 }
-
 nav{
   display: flex;
   gap: 2rem;
   font-size: 1.6rem;
   align-items: center;
-  
-}
-nav{
   background: rgba(46, 59, 82, .3);
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   padding-left: 10rem;
 }
+
 nav div{
   padding: 3rem 0rem;
   border-bottom: 2px solid hsla(0, 100%, 100%, 0);
+  transition: border-bottom 0.5s;
 }
+
+
 nav div:hover{
   border-bottom: 2px solid hsla(0, 100%, 100%, 1);
 }
@@ -35,6 +35,24 @@ nav div span{
   margin-right: 1rem;
   font-family: 'Manrope', sans-serif;
 }
+/*tablet*/
+@media (max-width:800px){
+  .cont_menu{
+    grid-template-columns: 10% 25% 65%;
+    padding-left: 4rem;
+    padding-top: 5rem;
+  }
+  
+  nav{
+    padding-left: 2rem;
+  }
+  .bold{
+    display: none;
+  }
+  
+}
+
+
 .textmen{
   font-family: 'Bellefair', serif;
   font-weight: 200;
@@ -43,11 +61,15 @@ nav div span{
 .logo{
   display: flex;
   align-items: center;
+
 }
+
+
 .linea{
   display: flex;
   align-items: center;
 }
+
 .linea div{
   border-bottom: 1px solid rgba(228, 228, 228, 0.3);
   position: absolute;
@@ -56,3 +78,79 @@ nav div span{
   z-index: 2;
   margin-left: -2rem;
 }
+
+/*tablet*/
+@media (max-width:800px){
+  .linea div{
+      border-bottom: 1px solid rgba(228, 228, 228, 0);
+  }
+}
+
+/*mobile*/
+.menumobile{
+  display: none;
+}
+
+@media (max-width:500px){
+  .menudesk{
+    display: none;
+  }
+
+  .menumobile{
+    display: block;
+  }
+  
+  .cont_menu{
+    padding-left: 10rem;
+  }
+
+  .cont_menu_mob nav{
+    
+    position: fixed;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    padding-top: 12rem;
+    margin-left: 100%;
+    align-items: start;
+    gap: 0.5rem;
+  }
+
+  nav div{
+    padding: 2rem 0rem;
+    width: 100%;
+  }
+
+  .bold{
+    display:inline
+  }
+
+  .menumobile .logo_mob{
+    padding-top: 5rem;
+    padding-left: 3rem;
+  }
+  .menucerrar{
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    padding-right: 5rem;
+    margin-top: -4rem;
+    cursor: pointer;
+  }
+  #lgcer{
+    display: none;
+  }
+}
+
+#menumob.animate{
+  transform: translate(-100%);
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+#menumob.animate2{
+  transform: translate(100%);
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+  
