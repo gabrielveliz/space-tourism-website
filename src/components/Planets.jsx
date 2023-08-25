@@ -7,13 +7,11 @@ function Planets(){
     (info)=>{
       let aux = info.name + " contplanetas";
         return(
-          <>
     <div key={info.ky} id={info.id}  className={aux}>
-
       <div className='contimgplan'>
-        <img src={require(`../assets/destination/${info.images.png}.png`)} alt="imgmoon" />
+        <img className='imgplanetas' src={require(`../assets/destination/${info.images.png}.png`)} alt="imgmoon" />
       </div>
-      <div>
+      <div className='conttextplan'>
         <MenuP op={info.ky}></MenuP>
         <div className='planetastitulo'><span>{info.name}</span></div>
         <div className='planetasparrafo'><span>{info.description}</span></div>
@@ -29,7 +27,6 @@ function Planets(){
         </div>
       </div>
     </div>
-          </>
         )
     }
   )

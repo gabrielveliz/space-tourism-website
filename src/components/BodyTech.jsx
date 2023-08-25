@@ -2,6 +2,7 @@ import React from 'react';
 import "../hojas-de-estilo/BodyTech.css";
 import data from "../data.json";
 
+
 function BodyTech(){
   return(
     <div>
@@ -19,7 +20,6 @@ const Vehi = ()=> {
       cont +=1;
 
         return(
-          <>
     <div key={key} id={info.id}  className={aux}>
         
 
@@ -32,10 +32,10 @@ const Vehi = ()=> {
         </div>
       </div>
       <div className='contimgtech'>
-        <img src={require(`../assets/technology/image-${info.images.portrait}.jpg`)} alt="imgvehicles" />
+        <img className='imgtechport' src={require(`../assets/technology/image-${info.images.portrait}.jpg`)} alt="imgvehicles" />
+        <img className='imgtechland' src={require(`../assets/technology/image-${info.images.landscape}.jpg`)} alt="imgvehicles" />
       </div>
     </div>
-          </>
         )
     }
   )

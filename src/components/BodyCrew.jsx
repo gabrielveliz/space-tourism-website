@@ -23,21 +23,22 @@ function Team(){
       let aux = info.id + " conteam";
       cont +=1
         return(
-          <>
     <div key={key} id={info.id}  className={aux}>
       
       <div className='teaminfo'>
-        <div key={key} className='teamrol'><span>{info.role}</span></div>
-        <div className='teamname'><span>{info.name}</span></div>
-        <div className='teambio'><span>{info.bio}</span></div>    
+        <div>
+          <div key={key} className='teamrol'><span>{info.role}</span></div>
+          <div className='teamname'><span>{info.name}</span></div>
+          <div className='teambio'><span>{info.bio}</span></div> 
+        </div>
+        <div className='subm'><SubMenut op={cont}></SubMenut></div>
         
-        <SubMenut op={cont}></SubMenut>
+        
       </div>
-      <div className='contimgplan'>
+      <div className='contimgteam'>
         <img src={require(`../assets/crew/image-${info.images.png}.png`)} alt="imgmoon" />
       </div>
     </div>
-          </>
         )
     }
   )

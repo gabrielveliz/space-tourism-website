@@ -30,3 +30,22 @@ body{
 }
 .picknum{color: #bcc2cb;font-weight: 700;font-family: 'Manrope', sans-serif;}
 
+/*tablet*/
+@media (max-width:800px){
+  .pick{
+    margin-left: 4rem;
+  }
+}
+
+/*mobile*/
+@media (max-width:500px){
+  .pick{
+    margin-left: 4rem;
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+  }
+  .picktex{
+    margin-left: 0.5rem;
+  }
+}
