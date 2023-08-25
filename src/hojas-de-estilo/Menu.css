@@ -21,6 +21,9 @@ nav div{
   transition: border-bottom 0.5s;
 }
 
+.selecppal{
+  border-bottom: 2px solid hsla(0, 100%, 100%, 1);
+}
 
 nav div:hover{
   border-bottom: 2px solid hsla(0, 100%, 100%, 1);
@@ -120,7 +123,9 @@ nav div span{
     padding: 2rem 0rem;
     width: 100%;
   }
-
+  .selecppal{
+    border-bottom: 2px solid hsla(0, 100%, 100%, 1);
+  }
   .bold{
     display:inline
   }

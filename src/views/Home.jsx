@@ -10,7 +10,7 @@ export const Home = () => {
   return (
     <>
     <div className="contindex">
-    <Menu></Menu>
+    <Menu nu={1}></Menu>
     <BodyIndex></BodyIndex>
     <Fot></Fot>
     </div>

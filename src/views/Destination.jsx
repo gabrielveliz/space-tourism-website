@@ -9,7 +9,7 @@ export const Destination = () => {
   return (
     <>
     <div className="contdest">
-    <Menu></Menu>
+    <Menu nu={2}></Menu>
     <BodyDest></BodyDest>
     <Fot></Fot>
     </div>

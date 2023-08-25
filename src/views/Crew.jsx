@@ -8,7 +8,7 @@ export const Crew = () => {
   return (
     <>
     <div className="contcrew">
-      <Menu></Menu>
+      <Menu nu={3}></Menu>
       <BodyCrew></BodyCrew>
       <Fot></Fot>
     </div>

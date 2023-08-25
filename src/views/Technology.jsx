@@ -7,7 +7,7 @@ export const Technology = () => {
   return (
     <>
     <div className="conttech">
-      <Menu></Menu>
+      <Menu nu={4}></Menu>
       <BodyTech></BodyTech>
       <Fot></Fot>
     </div>
