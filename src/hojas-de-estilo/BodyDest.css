@@ -7,14 +7,14 @@
 }
 /*tablet*/
 @media (max-width:800px){
-  .contindex{
+  .contdest{
     background-image: url("../assets/destination/background-destination-tablet.jpg");
   }
 }
 
 /*mobile*/
 @media (max-width:500px){
-  .contindex{
+  .contdest{
     background-image: url("../assets/destination/background-destination-mobile.jpg");
   }
 }

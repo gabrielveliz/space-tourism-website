@@ -6,14 +6,14 @@
 }
 /*tablet*/
 @media (max-width:800px){
-  .contindex{
+  .conttech{
     background-image: url("../assets/technology/background-technology-tablet.jpg");
   }
 }
 
 /*mobile*/
 @media (max-width:500px){
-  .contindex{
+  .conttech{
     background-image: url("../assets/technology/background-technology-mobile.jpg");
   }
 }
